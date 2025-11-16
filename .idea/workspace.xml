@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d00bb21-cb81-4bd1-a783-d3e05631149c" name="Changes" comment="feat(array): Solution to 283. Move Zeroes &#10; - Provide 2 solutions with O(n^2) time complexity and O(n)">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-    </list>
+    <list default="true" id="7d00bb21-cb81-4bd1-a783-d3e05631149c" name="Changes" comment="fix(gitignore): Add auto-generated project files &#10; - Add auto-generated project files related to Maven, IntelliJ IDEA and Temporary files" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -340,7 +337,15 @@
       <option name="project" value="LOCAL" />
       <updated>1763312387367</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="fix(gitignore): Add auto-generated project files &#10; - Add auto-generated project files related to Maven, IntelliJ IDEA and Temporary files">
+      <option name="closed" value="true" />
+      <created>1763313063211</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1763313063211</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -360,7 +365,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat(core): Layer initial structure of the project&#10; - Decomposition of problems by separate classes&#10; - Add naming convention for each problem to make it searchable" />
     <MESSAGE value="feat(array): Solution to 283. Move Zeroes &#10; - Provide 2 solutions with O(n^2) time complexity and O(n)" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(array): Solution to 283. Move Zeroes &#10; - Provide 2 solutions with O(n^2) time complexity and O(n)" />
+    <MESSAGE value="fix(gitignore): Add auto-generated project files &#10; - Add auto-generated project files related to Maven, IntelliJ IDEA and Temporary files" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix(gitignore): Add auto-generated project files &#10; - Add auto-generated project files related to Maven, IntelliJ IDEA and Temporary files" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
