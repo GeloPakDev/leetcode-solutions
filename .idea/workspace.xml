@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7d00bb21-cb81-4bd1-a783-d3e05631149c" name="Changes" comment="feat(array): Solution to 283. Move Zeroes &#10; - Provide 2 solutions with O(n^2) time complexity and O(n)">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;GeloPakDev&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/GeloPakDev/leetcode-solutions.git&quot;,
+    &quot;accountId&quot;: &quot;ba67d5d4-3dbf-4fb1-bc6e-d5211cd21ace&quot;
+  }
+}</component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2xuzjPlG61hE8ZCTM4zZYXA9gZf" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.BinarySearch.executor": "Run",
+    "Application.BoatsToSave.executor": "Run",
+    "Application.ConnectSticks.executor": "Run",
+    "Application.DominantIndex.executor": "Run",
+    "Application.GraphDFS.executor": "Run",
+    "Application.LinkedList.executor": "Run",
+    "Application.LongestCommonPrefix.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.MinimumStones.executor": "Run",
+    "Application.MoveZeros.executor": "Run",
+    "Application.RemoveElement.executor": "Run",
+    "Application.ReverseWords.executor": "Run",
+    "Application.RotateArray.executor": "Run",
+    "Application.StrImpl.executor": "Run",
+    "Application.TestHeap.executor": "Run",
+    "Application.TrieNode.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "/home/ares/IdeaProjects/leetcode-solutions/src/main/java/com/discordbtot/esm/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "editor.preferences.inline.completion",
+    "settings.editor.splitter.proportion": "0.22563054",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.MoveZeros">
+    <configuration name="LongestCommonPrefix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetsols.esm.strings.LongestCommonPrefix" />
+      <module name="leetcode-solutions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.leetsols.esm.arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MoveZeros" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetsols.esm.arrays.MoveZeros" />
+      <module name="leetcode-solutions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.leetsols.esm.arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RemoveElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetsols.esm.strings.RemoveElement" />
+      <module name="leetcode-solutions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.leetsols.esm.arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReverseWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetsols.esm.strings.ReverseWords" />
+      <module name="leetcode-solutions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.leetsols.esm.arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RotateArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetsols.esm.arrays.RotateArray" />
+      <module name="leetcode-solutions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.leetsols.esm.arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MoveZeros" />
+        <item itemvalue="Application.LongestCommonPrefix" />
+        <item itemvalue="Application.ReverseWords" />
+        <item itemvalue="Application.RotateArray" />
+        <item itemvalue="Application.RemoveElement" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.27397.103" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7d00bb21-cb81-4bd1-a783-d3e05631149c" name="Changes" comment="" />
+      <created>1748802880400</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1748802880400</updated>
+      <workItem from="1748802881348" duration="6000" />
+      <workItem from="1748893875141" duration="301000" />
+      <workItem from="1748973147975" duration="6694000" />
+      <workItem from="1749144854134" duration="2573000" />
+      <workItem from="1749279979143" duration="25630000" />
+      <workItem from="1749363129443" duration="22899000" />
+      <workItem from="1749480545603" duration="15838000" />
+      <workItem from="1749576802139" duration="6617000" />
+      <workItem from="1749668688408" duration="3720000" />
+      <workItem from="1749751632611" duration="4623000" />
+      <workItem from="1749916010093" duration="15894000" />
+      <workItem from="1749965098301" duration="11164000" />
+      <workItem from="1749988234209" duration="1777000" />
+      <workItem from="1750016269023" duration="1161000" />
+      <workItem from="1750095859479" duration="7587000" />
+      <workItem from="1750174685652" duration="5030000" />
+      <workItem from="1750226734229" duration="4154000" />
+      <workItem from="1750262337105" duration="2472000" />
+      <workItem from="1750314630964" duration="3601000" />
+      <workItem from="1750352365945" duration="12345000" />
+      <workItem from="1750404667572" duration="3921000" />
+      <workItem from="1750416012637" duration="4470000" />
+      <workItem from="1750429999725" duration="9969000" />
+      <workItem from="1750485909836" duration="8071000" />
+      <workItem from="1750593259564" duration="9773000" />
+      <workItem from="1750694838011" duration="1192000" />
+      <workItem from="1750697596240" duration="7055000" />
+      <workItem from="1750786609528" duration="1995000" />
+      <workItem from="1750837833935" duration="4160000" />
+      <workItem from="1750858014180" duration="153000" />
+      <workItem from="1750871468238" duration="2809000" />
+      <workItem from="1750940354366" duration="1119000" />
+      <workItem from="1750961274169" duration="1708000" />
+      <workItem from="1750998805710" duration="4722000" />
+      <workItem from="1751013877087" duration="3326000" />
+      <workItem from="1751044427760" duration="4929000" />
+      <workItem from="1751094585000" duration="1863000" />
+      <workItem from="1751108127661" duration="15512000" />
+      <workItem from="1751178411777" duration="6832000" />
+      <workItem from="1751194609148" duration="11772000" />
+      <workItem from="1751222433544" duration="4107000" />
+      <workItem from="1751289442020" duration="802000" />
+      <workItem from="1751301556245" duration="10226000" />
+      <workItem from="1751356496545" duration="3857000" />
+      <workItem from="1751391181104" duration="2429000" />
+      <workItem from="1751429205609" duration="7511000" />
+      <workItem from="1751445584807" duration="7403000" />
+      <workItem from="1751454990105" duration="2180000" />
+      <workItem from="1751481075669" duration="2995000" />
+      <workItem from="1751558913091" duration="5123000" />
+      <workItem from="1751651291419" duration="1525000" />
+      <workItem from="1751689048082" duration="1176000" />
+      <workItem from="1751779330727" duration="19244000" />
+      <workItem from="1751904027099" duration="11120000" />
+      <workItem from="1752087105546" duration="3171000" />
+      <workItem from="1752172396842" duration="3835000" />
+      <workItem from="1752210678343" duration="1524000" />
+      <workItem from="1752219070845" duration="2800000" />
+      <workItem from="1752257830471" duration="2693000" />
+      <workItem from="1752262725710" duration="9000" />
+      <workItem from="1752319581263" duration="1975000" />
+      <workItem from="1752322366415" duration="13842000" />
+      <workItem from="1752388318211" duration="15718000" />
+      <workItem from="1752424861133" duration="1371000" />
+      <workItem from="1752429211006" duration="5841000" />
+      <workItem from="1752521533068" duration="2819000" />
+      <workItem from="1752598249855" duration="4220000" />
+      <workItem from="1752693029356" duration="1908000" />
+      <workItem from="1752942397723" duration="1499000" />
+      <workItem from="1752947069298" duration="2722000" />
+      <workItem from="1752990820033" duration="11762000" />
+      <workItem from="1753124811376" duration="2012000" />
+      <workItem from="1753199539078" duration="27000" />
+      <workItem from="1753199573479" duration="9474000" />
+      <workItem from="1753212938309" duration="355000" />
+      <workItem from="1753292031810" duration="8868000" />
+      <workItem from="1753376771651" duration="4266000" />
+      <workItem from="1753519389108" duration="13250000" />
+      <workItem from="1753598289827" duration="7067000" />
+      <workItem from="1753643650057" duration="2043000" />
+      <workItem from="1753728615852" duration="1753000" />
+      <workItem from="1753810797162" duration="7262000" />
+      <workItem from="1753900347337" duration="1512000" />
+      <workItem from="1753978227614" duration="12191000" />
+      <workItem from="1754142159344" duration="5882000" />
+      <workItem from="1754199586426" duration="9453000" />
+      <workItem from="1754228157212" duration="5467000" />
+      <workItem from="1754246190982" duration="3125000" />
+      <workItem from="1754333342652" duration="5930000" />
+      <workItem from="1754409644456" duration="8828000" />
+      <workItem from="1754678973330" duration="3261000" />
+      <workItem from="1754722995127" duration="12154000" />
+      <workItem from="1754752374011" duration="8578000" />
+      <workItem from="1754815094243" duration="1786000" />
+      <workItem from="1754828091436" duration="5920000" />
+      <workItem from="1754843002039" duration="12480000" />
+      <workItem from="1754936073125" duration="4911000" />
+      <workItem from="1755026862317" duration="2166000" />
+      <workItem from="1755108093247" duration="2080000" />
+      <workItem from="1755111309100" duration="5827000" />
+      <workItem from="1755190645847" duration="4478000" />
+      <workItem from="1755337065054" duration="3950000" />
+      <workItem from="1755363563166" duration="609000" />
+      <workItem from="1755410433175" duration="4209000" />
+      <workItem from="1755457128462" duration="2667000" />
+      <workItem from="1755538415108" duration="7393000" />
+      <workItem from="1755802355151" duration="601000" />
+      <workItem from="1755893734488" duration="407000" />
+      <workItem from="1755936176063" duration="8006000" />
+      <workItem from="1755963769761" duration="600000" />
+      <workItem from="1756023471882" duration="8869000" />
+      <workItem from="1756055498184" duration="4927000" />
+      <workItem from="1756147069384" duration="4224000" />
+      <workItem from="1756224465023" duration="10295000" />
+      <workItem from="1756326060899" duration="1243000" />
+      <workItem from="1756496196705" duration="1155000" />
+      <workItem from="1756547811449" duration="6404000" />
+      <workItem from="1756572463013" duration="5471000" />
+      <workItem from="1756620481487" duration="3424000" />
+      <workItem from="1756641553833" duration="11557000" />
+      <workItem from="1756706406293" duration="12484000" />
+      <workItem from="1757961700111" duration="1001000" />
+      <workItem from="1758049798811" duration="2391000" />
+      <workItem from="1758129822982" duration="2766000" />
+      <workItem from="1758344718454" duration="7625000" />
+      <workItem from="1758648168527" duration="5887000" />
+      <workItem from="1758739191971" duration="3832000" />
+      <workItem from="1758825930148" duration="643000" />
+      <workItem from="1758970900796" duration="4950000" />
+      <workItem from="1759001882230" duration="766000" />
+      <workItem from="1759050646758" duration="12344000" />
+      <workItem from="1759334445833" duration="5241000" />
+      <workItem from="1759420600709" duration="8674000" />
+      <workItem from="1759517762003" duration="3087000" />
+      <workItem from="1759592139124" duration="7620000" />
+      <workItem from="1759663035634" duration="8782000" />
+      <workItem from="1759773741085" duration="4755000" />
+      <workItem from="1759853880744" duration="6546000" />
+      <workItem from="1759946344386" duration="5392000" />
+      <workItem from="1760023491049" duration="4722000" />
+      <workItem from="1760205440510" duration="5429000" />
+      <workItem from="1760257734629" duration="10837000" />
+      <workItem from="1760338921656" duration="6000" />
+    </task>
+    <task id="LOCAL-00001" summary="feat(core): Layer initial structure of the project&#10; - Decomposition of problems by separate classes&#10; - Add naming convention for each problem to make it searchable">
+      <option name="closed" value="true" />
+      <created>1763149478277</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1763149478277</updated>
+    </task>
+    <task id="LOCAL-00002" summary="feat(array): Solution to 283. Move Zeroes &#10; - Provide 2 solutions with O(n^2) time complexity and O(n)">
+      <option name="closed" value="true" />
+      <created>1763312387367</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1763312387367</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat(core): Layer initial structure of the project&#10; - Decomposition of problems by separate classes&#10; - Add naming convention for each problem to make it searchable" />
+    <MESSAGE value="feat(array): Solution to 283. Move Zeroes &#10; - Provide 2 solutions with O(n^2) time complexity and O(n)" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(array): Solution to 283. Move Zeroes &#10; - Provide 2 solutions with O(n^2) time complexity and O(n)" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/discordbtot/esm/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
