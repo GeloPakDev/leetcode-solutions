@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d00bb21-cb81-4bd1-a783-d3e05631149c" name="Changes" comment="fix(gitignore): Remove commit .idea files from git&#10; - Execute the git rm -r --cached .idea to remove it from git and make invisible">
+    <list default="true" id="7d00bb21-cb81-4bd1-a783-d3e05631149c" name="Changes" comment="feat(hashing): Add solution for PascalTriangle and HashSet Design problems:&#10;- Add LinkedList and Tree based solutions for the 705.Design HashSet problem&#10;- Add solution for 119. PascalTriangle || problem">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetsols/esm/arrays/PascalTriangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetsols/esm/arrays/PascalTriangle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -365,7 +364,15 @@
       <option name="project" value="LOCAL" />
       <updated>1763314926245</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="feat(hashing): Add solution for PascalTriangle and HashSet Design problems:&#10;- Add LinkedList and Tree based solutions for the 705.Design HashSet problem&#10;- Add solution for 119. PascalTriangle || problem">
+      <option name="closed" value="true" />
+      <created>1764268288626</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1764268288626</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -387,7 +394,8 @@
     <MESSAGE value="feat(array): Solution to 283. Move Zeroes &#10; - Provide 2 solutions with O(n^2) time complexity and O(n)" />
     <MESSAGE value="fix(gitignore): Add auto-generated project files &#10; - Add auto-generated project files related to Maven, IntelliJ IDEA and Temporary files" />
     <MESSAGE value="fix(gitignore): Remove commit .idea files from git&#10; - Execute the git rm -r --cached .idea to remove it from git and make invisible" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix(gitignore): Remove commit .idea files from git&#10; - Execute the git rm -r --cached .idea to remove it from git and make invisible" />
+    <MESSAGE value="feat(hashing): Add solution for PascalTriangle and HashSet Design problems:&#10;- Add LinkedList and Tree based solutions for the 705.Design HashSet problem&#10;- Add solution for 119. PascalTriangle || problem" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(hashing): Add solution for PascalTriangle and HashSet Design problems:&#10;- Add LinkedList and Tree based solutions for the 705.Design HashSet problem&#10;- Add solution for 119. PascalTriangle || problem" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
