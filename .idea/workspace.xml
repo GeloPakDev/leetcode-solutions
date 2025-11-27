@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7d00bb21-cb81-4bd1-a783-d3e05631149c" name="Changes" comment="fix(gitignore): Remove commit .idea files from git&#10; - Execute the git rm -r --cached .idea to remove it from git and make invisible">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetsols/esm/arrays/PascalTriangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetsols/esm/arrays/PascalTriangle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,47 +50,48 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.BinarySearch.executor": "Run",
-    "Application.BoatsToSave.executor": "Run",
-    "Application.ConnectSticks.executor": "Run",
-    "Application.DominantIndex.executor": "Run",
-    "Application.GraphDFS.executor": "Run",
-    "Application.LinkedList.executor": "Run",
-    "Application.LongestCommonPrefix.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.MinimumStones.executor": "Run",
-    "Application.MoveZeros.executor": "Run",
-    "Application.RemoveElement.executor": "Run",
-    "Application.ReverseWords.executor": "Run",
-    "Application.RotateArray.executor": "Run",
-    "Application.StrImpl.executor": "Run",
-    "Application.TestHeap.executor": "Run",
-    "Application.TrieNode.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "junie.onboarding.icon.badge.shown": "true",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "/home/ares/IdeaProjects/leetcode-solutions/src/main/java/com/discordbtot/esm/Main.java",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "editor.preferences.inline.completion",
-    "settings.editor.splitter.proportion": "0.22563054",
-    "to.speed.mode.migration.done": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.BinarySearch.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BoatsToSave.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ConnectSticks.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DominantIndex.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GraphDFS.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LinkedList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LongestCommonPrefix.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MinimumStones.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MoveZeros.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PascalTriangle.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RemoveElement.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReverseWords.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RotateArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StrImpl.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestHeap.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TrieNode.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/home/ares/IdeaProjects/leetcode-solutions/src/main/java/com/discordbtot/esm/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.inline.completion&quot;,
+    &quot;settings.editor.splitter.proportion&quot;: &quot;0.22563054&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.MoveZeros">
+}</component>
+  <component name="RunManager" selected="Application.PascalTriangle">
     <configuration name="LongestCommonPrefix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.leetsols.esm.strings.LongestCommonPrefix" />
       <module name="leetcode-solutions" />
@@ -116,8 +118,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetsols.esm.strings.RemoveElement" />
+    <configuration name="PascalTriangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetsols.esm.arrays.PascalTriangle" />
       <module name="leetcode-solutions" />
       <extension name="coverage">
         <pattern>
@@ -157,18 +159,18 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PascalTriangle" />
         <item itemvalue="Application.MoveZeros" />
         <item itemvalue="Application.LongestCommonPrefix" />
         <item itemvalue="Application.ReverseWords" />
         <item itemvalue="Application.RotateArray" />
-        <item itemvalue="Application.RemoveElement" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.27397.103" />
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.28238.7" />
       </set>
     </attachedChunks>
   </component>
@@ -355,7 +357,15 @@
       <option name="project" value="LOCAL" />
       <updated>1763313343027</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="fix(gitignore): Remove commit .idea files from git&#10; - Execute the git rm -r --cached .idea to remove it from git and make invisible">
+      <option name="closed" value="true" />
+      <created>1763314926245</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1763314926245</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

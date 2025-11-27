@@ -38,4 +38,30 @@ public class PascalTriangle {
         }
         return res;
     }
+
+    public static List<Integer> getRow(int rowIndex) {
+        List<List<Integer>> res = new ArrayList<>();
+        res.add(new ArrayList<>());
+        res.get(0).add(1);
+
+        /*
+         * - Outer loop for rows and iteration in depth
+         * - curr -> new row on rowIndex level
+         * - prev -> upper level row
+         * - curr.add(1) -> before and after the loop as indicates in the Pascal Triangle
+         * - Inner loop forming values by summing two adjacent elements of the upper row.
+         * - Add a new level to the triangle
+         */
+        for (int row = 1; row <= rowIndex; row++) {
+            List<Integer> curr = new ArrayList<>();
+            List<Integer> prev = res.get(row - 1);
+            curr.add(1);
+            for (int col = 1; col < prev.size(); col++) {
+                curr.add(prev.get(col - 1) + prev.get(col));
+            }
+            curr.add(1);
+            res.add(curr);
+        }
+        return res.get(rowIndex);
+    }
 }
