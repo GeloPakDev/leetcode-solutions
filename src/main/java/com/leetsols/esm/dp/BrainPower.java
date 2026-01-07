@@ -3,6 +3,10 @@ package com.leetsols.esm.dp;
 import java.util.HashMap;
 import java.util.Map;
 
+/*
+ * Problem type: Array, Dynamic Programming
+ * Number: 2140. Solving Questions With BrainPower
+ */
 public class BrainPower {
     Map<Integer, Long> memo = new HashMap<>();
 

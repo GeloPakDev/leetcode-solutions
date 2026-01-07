@@ -4,8 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d00bb21-cb81-4bd1-a783-d3e05631149c" name="Changes" comment="feat(hashing): Add solution for PascalTriangle and HashSet Design problems:&#10;- Add LinkedList and Tree based solutions for the 705.Design HashSet problem&#10;- Add solution for 119. PascalTriangle || problem">
+    <list default="true" id="7d00bb21-cb81-4bd1-a783-d3e05631149c" name="Changes" comment="feat(hashing): Add solution for Design HashMap problem&#10;- Add solution for 706 Design HashSet.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetsols/esm/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetsols/esm/linkedlist/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetsols/esm/arrays/ContainsDuplicate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetsols/esm/arrays/ContainsDuplicate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetsols/esm/dp/BrainPower.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetsols/esm/dp/BrainPower.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetsols/esm/graphs/MaxIslandArea.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetsols/esm/hashing/HashMapDesign.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetsols/esm/hashing/HashMapDesign.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetsols/esm/heap/ClosestElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetsols/esm/heap/ClosestElements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetsols/esm/strings/TwoSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetsols/esm/strings/TwoSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetsols/esm/strings/ValidPalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetsols/esm/strings/ValidPalindrome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetsols/esm/tree/DiameterTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetsols/esm/tree/DiameterTree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,32 +55,45 @@
 }</component>
   <component name="ProjectId" id="2xuzjPlG61hE8ZCTM4zZYXA9gZf" />
   <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Application.AddTwoNumbers.executor&quot;: &quot;Run&quot;,
     &quot;Application.BinarySearch.executor&quot;: &quot;Run&quot;,
     &quot;Application.BoatsToSave.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BuildingsWithOceanView.executor&quot;: &quot;Run&quot;,
     &quot;Application.ConnectSticks.executor&quot;: &quot;Run&quot;,
     &quot;Application.DominantIndex.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FirstAndLastPosition.executor&quot;: &quot;Run&quot;,
     &quot;Application.GraphDFS.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GroupShiftedStrings.executor&quot;: &quot;Run&quot;,
     &quot;Application.LinkedList.executor&quot;: &quot;Run&quot;,
     &quot;Application.LongestCommonPrefix.executor&quot;: &quot;Run&quot;,
     &quot;Application.Main.executor&quot;: &quot;Run&quot;,
     &quot;Application.MinimumStones.executor&quot;: &quot;Run&quot;,
     &quot;Application.MoveZeros.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MultiplyStrings.executor&quot;: &quot;Run&quot;,
     &quot;Application.PascalTriangle.executor&quot;: &quot;Run&quot;,
     &quot;Application.RemoveElement.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReverseVowels.executor&quot;: &quot;Run&quot;,
     &quot;Application.ReverseWords.executor&quot;: &quot;Run&quot;,
     &quot;Application.RotateArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SearchSortedArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SortByArray.executor&quot;: &quot;Run&quot;,
     &quot;Application.StrImpl.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SumRootLeafs.executor&quot;: &quot;Run&quot;,
     &quot;Application.TestHeap.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreeSum.executor&quot;: &quot;Run&quot;,
     &quot;Application.TrieNode.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ValidMountain.executor&quot;: &quot;Run&quot;,
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
@@ -90,13 +112,13 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.PascalTriangle">
-    <configuration name="LongestCommonPrefix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetsols.esm.strings.LongestCommonPrefix" />
+  <component name="RunManager" selected="Application.AddTwoNumbers">
+    <configuration name="AddTwoNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetsols.esm.linkedlist.AddTwoNumbers" />
       <module name="leetcode-solutions" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.leetsols.esm.arrays.*" />
+          <option name="PATTERN" value="com.leetsols.esm.linkedlist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,12 +126,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MoveZeros" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetsols.esm.arrays.MoveZeros" />
+    <configuration name="GroupShiftedStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetsols.esm.hashing.GroupShiftedStrings" />
       <module name="leetcode-solutions" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.leetsols.esm.arrays.*" />
+          <option name="PATTERN" value="com.leetsols.esm.hashing.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,12 +139,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PascalTriangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetsols.esm.arrays.PascalTriangle" />
+    <configuration name="ReverseVowels" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetsols.esm.strings.ReverseVowels" />
       <module name="leetcode-solutions" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.leetsols.esm.arrays.*" />
+          <option name="PATTERN" value="com.leetsols.esm.strings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,12 +152,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetsols.esm.strings.ReverseWords" />
+    <configuration name="SearchSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetsols.esm.binarysearch.SearchSortedArray" />
       <module name="leetcode-solutions" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.leetsols.esm.arrays.*" />
+          <option name="PATTERN" value="com.leetsols.esm.binarysearch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,12 +165,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RotateArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetsols.esm.arrays.RotateArray" />
+    <configuration name="ValidMountain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetsols.esm.arrays.ValidMountain" />
       <module name="leetcode-solutions" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.leetsols.esm.arrays.*" />
+          <option name="PATTERN" value="com.leetsols.esm.graphs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -158,18 +180,18 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.PascalTriangle" />
-        <item itemvalue="Application.MoveZeros" />
-        <item itemvalue="Application.LongestCommonPrefix" />
-        <item itemvalue="Application.ReverseWords" />
-        <item itemvalue="Application.RotateArray" />
+        <item itemvalue="Application.AddTwoNumbers" />
+        <item itemvalue="Application.SearchSortedArray" />
+        <item itemvalue="Application.GroupShiftedStrings" />
+        <item itemvalue="Application.ReverseVowels" />
+        <item itemvalue="Application.ValidMountain" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.28238.7" />
+        <option value="bundled-jdk-30f59d01ecdd-26cb7f24e5b0-intellij.indexing.shared.core-IU-253.29346.138" />
       </set>
     </attachedChunks>
   </component>
@@ -372,7 +394,15 @@
       <option name="project" value="LOCAL" />
       <updated>1764268288626</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="feat(hashing): Add solution for Design HashMap problem&#10;- Add solution for 706 Design HashSet.">
+      <option name="closed" value="true" />
+      <created>1764272275765</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1764272275765</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -395,7 +425,8 @@
     <MESSAGE value="fix(gitignore): Add auto-generated project files &#10; - Add auto-generated project files related to Maven, IntelliJ IDEA and Temporary files" />
     <MESSAGE value="fix(gitignore): Remove commit .idea files from git&#10; - Execute the git rm -r --cached .idea to remove it from git and make invisible" />
     <MESSAGE value="feat(hashing): Add solution for PascalTriangle and HashSet Design problems:&#10;- Add LinkedList and Tree based solutions for the 705.Design HashSet problem&#10;- Add solution for 119. PascalTriangle || problem" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(hashing): Add solution for PascalTriangle and HashSet Design problems:&#10;- Add LinkedList and Tree based solutions for the 705.Design HashSet problem&#10;- Add solution for 119. PascalTriangle || problem" />
+    <MESSAGE value="feat(hashing): Add solution for Design HashMap problem&#10;- Add solution for 706 Design HashSet." />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(hashing): Add solution for Design HashMap problem&#10;- Add solution for 706 Design HashSet." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

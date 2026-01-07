@@ -5,10 +5,11 @@ import java.util.Collections;
 import java.util.List;
 import java.util.PriorityQueue;
 
+/*
+ * Problem type: Array, Two Pointers, Binary Search, Sliding Window, Sorting, Heap (Priority Queue)
+ * Number: 658. Find K Closest Elements
+ */
 public class ClosestElements {
-    /*
-     * -
-     */
     public List<Integer> findClosestElements(int[] arr, int k, int x) {
         PriorityQueue<Integer> heap = new PriorityQueue<>((n1, n2) -> {
             if (Math.abs(n1 - x) == Math.abs(n2 - x)) {

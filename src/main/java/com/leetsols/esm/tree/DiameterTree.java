@@ -1,5 +1,9 @@
 package com.leetsols.esm.tree;
 
+/*
+ * Problem type: Tree, Depth-First Search, Binary Tree
+ * Number: 543. Diameter of a Binary Tree
+ */
 public class DiameterTree {
     int diameter;
 

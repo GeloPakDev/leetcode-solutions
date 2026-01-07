@@ -51,7 +51,7 @@ public class HashMapDesign {
         list.removeIf(pair -> pair.key == key);
     }
 
-    static class Pair<E, V> {
+    public static class Pair<E, V> {
         E key;
         V value;
 

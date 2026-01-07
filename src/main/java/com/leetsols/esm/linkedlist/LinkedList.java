@@ -1,4 +1,4 @@
-package com.leetsols.esm;
+package com.leetsols.esm.linkedlist;
 
 public class LinkedList {
     public static class ListNode {
