@@ -33,9 +33,4 @@ class TrieNode {
         sb.append('}');
         return sb.toString();
     }
-
-    static void main(String[] args) {
-        String[] arr = new String[]{"axh", "ag", "asx"};
-        buildTree(arr);
-    }
 }

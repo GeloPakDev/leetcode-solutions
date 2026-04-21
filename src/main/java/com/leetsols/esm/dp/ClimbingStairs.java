@@ -1,9 +1,6 @@
 package com.leetsols.esm.dp;
 
 public class ClimbingStairs {
-    /*
-     * - Brute force
-     */
     public int climbStairsOne(int n) {
         return climbBruteStairs(0, n);
     }

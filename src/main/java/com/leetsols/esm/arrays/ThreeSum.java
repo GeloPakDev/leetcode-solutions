@@ -65,6 +65,36 @@ public class ThreeSum {
     }
 
     /*
+     * Hashset approach
+     * - nums[i] <= 0                     -> choose pivot as negative, remaining elements cannot sum to 0
+     * - nums[i - 1] != nums[i]           -> current value is the same as the one before, skip it
+     * - complement = -nums[i] - nums[j]; ->
+     *  to find the 3rd number you need to isolate it to the other side of the equation (simple equation)
+     *  - nums[i] + nums[j] + nums[k] = 0
+     *  - complement = 0 - nums[i] - nums[j]
+     */
+    public List<List<Integer>> threeSumHashSet(int[] nums) {
+        Arrays.sort(nums);
+        List<List<Integer>> res = new ArrayList<>();
+        for (int i = 0; i < nums.length && nums[i] <= 0; i++) {
+            if (i == 0 || nums[i - 1] != nums[i]) twoSum(nums, i, res);
+        }
+        return res;
+    }
+
+    public void twoSum(int[] nums, int i, List<List<Integer>> res) {
+        var seen = new HashSet<Integer>();
+        for (int j = i + 1; j < nums.length; j++) {
+            int complement = -nums[i] - nums[j];
+            if (seen.contains(complement)) {
+                res.add(Arrays.asList(nums[i], nums[j], complement));
+                while (j + 1 < nums.length && nums[j] == nums[j + 1]) ++j;
+            }
+            seen.add(nums[j]);
+        }
+    }
+
+    /*
      * - The problem is similar to the 3SUM, but have distinctions in the target value
      *   in the original problem we have been looking for the triplet that equal to 0,
      *   here we are looking for the one that are less than a targets, as a result should

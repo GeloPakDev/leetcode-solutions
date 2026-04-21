@@ -21,9 +21,4 @@ public class MinimumStones {
         }
         return ans;
     }
-
-    public static void main(String[] args) {
-        var temp = new int[]{5, 4, 9};
-        minStoneSum(temp, 2);
-    }
 }

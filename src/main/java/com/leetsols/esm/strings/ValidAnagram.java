@@ -72,4 +72,24 @@ public class ValidAnagram {
         }
         return new ArrayList<>(map.values());
     }
+
+    public List<List<String>> groupAnagramsTwo(String[] strs) {
+        if (strs.length == 0) return new ArrayList<>();
+        var map = new HashMap<String, List<String>>();
+        for (String str : strs) {
+            var curr = convert(str);
+            if (!map.containsKey(curr)) {
+                var list = new ArrayList<String>();
+                map.put(curr, list);
+            }
+            map.get(curr).add(str);
+        }
+        return new ArrayList<>(map.values());
+    }
+
+    public String convert(String input) {
+        var temp = input.toCharArray();
+        Arrays.sort(temp);
+        return String.valueOf(temp);
+    }
 }
