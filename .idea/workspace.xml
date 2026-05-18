@@ -4,23 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d00bb21-cb81-4bd1-a783-d3e05631149c" name="Changes" comment="feat(batch): Add solutions for 50+ problems&#10;- Add solutions from Meta Most Frequent problems">
+    <list default="true" id="7d00bb21-cb81-4bd1-a783-d3e05631149c" name="Changes" comment="feat(batch): Add solutions for 50+ problems&#10;- Add solutions for the topics such as: Heap, Tree, Sliding Window, Two Pointers">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetsols/esm/arrays/IntersectionOfArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetsols/esm/arrays/IntersectionOfArrays.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetsols/esm/arrays/ThreeSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetsols/esm/arrays/ThreeSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetsols/esm/arrays/ToeplitzMatrix.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetsols/esm/dp/ClimbingStairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetsols/esm/dp/ClimbingStairs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetsols/esm/graphs/GraphDFS.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetsols/esm/graphs/SnakesAndLadders.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetsols/esm/hashing/Pair.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetsols/esm/hashing/Pair.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetsols/esm/heap/MinimumStones.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetsols/esm/heap/MinimumStones.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetsols/esm/heap/TestHeap.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetsols/esm/stack/BasicCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetsols/esm/stack/BasicCalculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetsols/esm/strings/RemoveElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetsols/esm/strings/RemoveElement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetsols/esm/strings/ReverseWords.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetsols/esm/strings/ValidAnagram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetsols/esm/strings/ValidAnagram.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetsols/esm/tree/GoodNodes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetsols/esm/tree/GoodNodes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetsols/esm/tree/Trie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetsols/esm/tree/Trie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetsols/esm/arrays/ContainsDuplicate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetsols/esm/arrays/ContainsDuplicate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetsols/esm/bitmanipulation/SingleNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetsols/esm/bitmanipulation/SingleNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetsols/esm/heap/KLargestElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetsols/esm/heap/KLargestElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetsols/esm/heap/MedianFinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetsols/esm/heap/MedianFinder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetsols/esm/heap/TopFrequentElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetsols/esm/heap/TopFrequentElements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetsols/esm/intervals/InsertInterval.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetsols/esm/intervals/InsertInterval.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,88 +56,98 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.AddTwoNumbers.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BinarySearch.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BitShiftExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BoatsToSave.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BuildingsWithOceanView.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ConnectSticks.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DominantIndex.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FindKPairsWithSmallestSum.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FirstAndLastPosition.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FirstUniqueCharacter.executor&quot;: &quot;Run&quot;,
-    &quot;Application.GraphDFS.executor&quot;: &quot;Run&quot;,
-    &quot;Application.GroupAnagrams.executor&quot;: &quot;Run&quot;,
-    &quot;Application.GroupShiftedStrings.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HappyNumber.executor&quot;: &quot;Run&quot;,
-    &quot;Application.IntersectionOfArrays.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LinkedList.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LongestCommonPrefix.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.MinimumStones.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MoveZeros.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MultiplyStrings.executor&quot;: &quot;Run&quot;,
-    &quot;Application.NearestSmallerElement.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PascalTriangle.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RemoveElement.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RemovingStars.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ReverseVowels.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ReverseWords.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RotateArray.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SearchSortedArray.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SingleNumber.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SortByArray.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SortCharactersByFrequency.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StrImpl.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StudentsUnableToLaunch.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SumRootLeafs.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Test.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TestHeap.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ThreeSum.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TimeToBuyTickets.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TrieNode.executor&quot;: &quot;Run&quot;,
-    &quot;Application.UniqueWordAbbreviation.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ValidMountain.executor&quot;: &quot;Run&quot;,
-    &quot;Application.com.leetsols.esm.stack.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.gROUP.executor&quot;: &quot;Run&quot;,
-    &quot;Application.main.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.preview.features.used&quot;: &quot;true&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/ares/IdeaProjects/demo&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;/home/ares/IdeaProjects/leetcode-solutions/src/main/java/com/discordbtot/esm/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.completion.inline&quot;,
-    &quot;settings.editor.splitter.proportion&quot;: &quot;0.22563054&quot;,
-    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.AddTwoNumbers.executor": "Run",
+    "Application.BinaryNumConcat.executor": "Run",
+    "Application.BinarySearch.executor": "Run",
+    "Application.BitShiftExample.executor": "Run",
+    "Application.BoatsToSave.executor": "Run",
+    "Application.BuildingsWithOceanView.executor": "Run",
+    "Application.ConnectSticks.executor": "Run",
+    "Application.DominantIndex.executor": "Run",
+    "Application.FindKPairsWithSmallestSum.executor": "Run",
+    "Application.FirstAndLastPosition.executor": "Run",
+    "Application.FirstUniqueCharacter.executor": "Run",
+    "Application.GraphDFS.executor": "Run",
+    "Application.GroupAnagrams.executor": "Run",
+    "Application.GroupShiftedStrings.executor": "Run",
+    "Application.HammingDistance.executor": "Run",
+    "Application.HammingWeight.executor": "Run",
+    "Application.HappyNumber.executor": "Run",
+    "Application.IntersectionOfArrays.executor": "Run",
+    "Application.KClosestPoints.executor": "Run",
+    "Application.LinkedList.executor": "Run",
+    "Application.LongestCommonPrefix.executor": "Run",
+    "Application.Main.executor": "Debug",
+    "Application.MaximumSubarray.executor": "Run",
+    "Application.MinSubarrayLength.executor": "Run",
+    "Application.MinimumStones.executor": "Run",
+    "Application.MoveZeros.executor": "Run",
+    "Application.MultiplyStrings.executor": "Run",
+    "Application.NearestSmallerElement.executor": "Run",
+    "Application.PascalTriangle.executor": "Run",
+    "Application.RelativeSort.executor": "Run",
+    "Application.RemoveElement.executor": "Run",
+    "Application.RemovingStars.executor": "Run",
+    "Application.ReverseBits.executor": "Run",
+    "Application.ReverseInteger.executor": "Run",
+    "Application.ReverseVowels.executor": "Run",
+    "Application.ReverseWords.executor": "Run",
+    "Application.RotateArray.executor": "Run",
+    "Application.SearchSortedArray.executor": "Run",
+    "Application.SingleNumber.executor": "Run",
+    "Application.SlidingWindowMax.executor": "Run",
+    "Application.SortByArray.executor": "Run",
+    "Application.SortCharactersByFrequency.executor": "Run",
+    "Application.StrImpl.executor": "Run",
+    "Application.StudentsUnableToLaunch.executor": "Run",
+    "Application.SumRootLeafs.executor": "Run",
+    "Application.Test.executor": "Run",
+    "Application.TestHeap.executor": "Run",
+    "Application.ThreeSum.executor": "Run",
+    "Application.TimeToBuyTickets.executor": "Run",
+    "Application.TrieNode.executor": "Run",
+    "Application.UniqueWordAbbreviation.executor": "Run",
+    "Application.ValidMountain.executor": "Run",
+    "Application.com.leetsols.esm.stack.Main.executor": "Run",
+    "Application.gROUP.executor": "Run",
+    "Application.main.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "master",
+    "ignore.preview.features.used": "true",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/ares/IdeaProjects/demo",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "/home/ares/IdeaProjects/leetcode-solutions/src/main/java/com/discordbtot/esm/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "editor.preferences.completion.inline",
+    "settings.editor.splitter.proportion": "0.22563054",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="Application.SortCharactersByFrequency">
-    <configuration name="FindKPairsWithSmallestSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetsols.esm.heap.FindKPairsWithSmallestSum" />
+}]]></component>
+  <component name="RunManager" selected="Application.HammingDistance">
+    <configuration name="BinaryNumConcat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetsols.esm.bitmanipulation.BinaryNumConcat" />
       <module name="leetcode-solutions" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.leetsols.esm.heap.*" />
+          <option name="PATTERN" value="com.leetsols.esm.bitmanipulation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -154,12 +155,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NearestSmallerElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetsols.esm.linkedlist.NearestSmallerElement" />
+    <configuration name="HammingDistance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetsols.esm.bitmanipulation.HammingDistance" />
       <module name="leetcode-solutions" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.leetsols.esm.linkedlist.*" />
+          <option name="PATTERN" value="com.leetsols.esm.bitmanipulation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -167,12 +168,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortCharactersByFrequency" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetsols.esm.heap.SortCharactersByFrequency" />
+    <configuration name="HammingWeight" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetsols.esm.bitmanipulation.HammingWeight" />
       <module name="leetcode-solutions" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.leetsols.esm.heap.*" />
+          <option name="PATTERN" value="com.leetsols.esm.bitmanipulation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -180,12 +181,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.leetsols.esm.stack.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetsols.esm.stack.Main" />
+    <configuration name="ReverseBits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetsols.esm.bitmanipulation.ReverseBits" />
       <module name="leetcode-solutions" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.leetsols.esm.stack.*" />
+          <option name="PATTERN" value="com.leetsols.esm.bitmanipulation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -193,12 +194,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetsols.esm.main" />
+    <configuration name="ReverseInteger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetsols.esm.bitmanipulation.ReverseInteger" />
       <module name="leetcode-solutions" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.leetsols.esm.*" />
+          <option name="PATTERN" value="com.leetsols.esm.bitmanipulation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -208,18 +209,19 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SortCharactersByFrequency" />
-        <item itemvalue="Application.FindKPairsWithSmallestSum" />
-        <item itemvalue="Application.NearestSmallerElement" />
-        <item itemvalue="Application.main" />
-        <item itemvalue="Application.com.leetsols.esm.stack.Main" />
+        <item itemvalue="Application.HammingDistance" />
+        <item itemvalue="Application.BinaryNumConcat" />
+        <item itemvalue="Application.HammingWeight" />
+        <item itemvalue="Application.ReverseBits" />
+        <item itemvalue="Application.ReverseInteger" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.32098.37" />
+        <option value="bundled-jdk-30f59d01ecdd-37e91769500f-intellij.indexing.shared.core-IU-261.24374.151" />
+        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-IU-261.24374.151" />
       </set>
     </attachedChunks>
   </component>
@@ -438,7 +440,15 @@
       <option name="project" value="LOCAL" />
       <updated>1767811867996</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="feat(batch): Add solutions for 50+ problems&#10;- Add solutions for the topics such as: Heap, Tree, Sliding Window, Two Pointers">
+      <option name="closed" value="true" />
+      <created>1776790169786</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1776790169786</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -463,7 +473,8 @@
     <MESSAGE value="feat(hashing): Add solution for PascalTriangle and HashSet Design problems:&#10;- Add LinkedList and Tree based solutions for the 705.Design HashSet problem&#10;- Add solution for 119. PascalTriangle || problem" />
     <MESSAGE value="feat(hashing): Add solution for Design HashMap problem&#10;- Add solution for 706 Design HashSet." />
     <MESSAGE value="feat(batch): Add solutions for 50+ problems&#10;- Add solutions from Meta Most Frequent problems" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(batch): Add solutions for 50+ problems&#10;- Add solutions from Meta Most Frequent problems" />
+    <MESSAGE value="feat(batch): Add solutions for 50+ problems&#10;- Add solutions for the topics such as: Heap, Tree, Sliding Window, Two Pointers" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(batch): Add solutions for 50+ problems&#10;- Add solutions for the topics such as: Heap, Tree, Sliding Window, Two Pointers" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
