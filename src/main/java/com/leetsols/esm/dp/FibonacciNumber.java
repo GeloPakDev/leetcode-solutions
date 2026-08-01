@@ -15,4 +15,13 @@ public class FibonacciNumber {
         map.put(n, res);
         return res;
     }
+
+    public int tribonacci(int n) {
+        if (map.containsKey(n)) return map.get(n);
+
+        int res = 0;
+        if (n == 1 || n == 2) res = tribonacci(n - 1) + tribonacci(n - 2) + tribonacci(n - 3);
+        map.put(n, res);
+        return res;
+    }
 }

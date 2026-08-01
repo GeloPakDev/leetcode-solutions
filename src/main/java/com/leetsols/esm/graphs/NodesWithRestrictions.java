@@ -28,8 +28,8 @@ public class NodesWithRestrictions {
         Map<Integer, List<Integer>> neighbors = new HashMap<>();
         for (int[] edge : edges) {
             int a = edge[0], b = edge[1];
-            neighbors.computeIfAbsent(a, value -> new ArrayList<Integer>()).add(b);
-            neighbors.computeIfAbsent(b, value -> new ArrayList<Integer>()).add(a);
+            neighbors.computeIfAbsent(a, value -> new ArrayList<>()).add(b);
+            neighbors.computeIfAbsent(b, value -> new ArrayList<>()).add(a);
         }
 
         // Mark the nodes in 'restricted' as visited.

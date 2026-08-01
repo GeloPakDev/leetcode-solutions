@@ -6,16 +6,8 @@ public class CoinChange {
     private Integer[] memo;
 
     /*
-     * - Base cases:
-     *  - If the amount can't be made up by any combination return -1
-     *  - If the amount is 0 -> return 0
-     *  - If the counter hit amount, update max variable
-     *
-     * - Recurrence relation:
-     *  - For each of the coins[i], calculate the
-     *
-     *
-     *  - Return the fewest number of coins to make up the amount,
+     * Approach:
+     * -
      */
     public int coinChange(int[] coins, int amount) {
         return coinRecursiveCheck(coins, amount);
@@ -44,13 +36,8 @@ public class CoinChange {
     }
 
     private int coinRecursiveCheck(int[] coins, int remain) {
-        if (remain < 0) {
-            return -1;
-        }
-
-        if (remain == 0) {
-            return 0;
-        }
+        if (remain < 0) return -1;
+        if (remain == 0) return 0;
 
         int minCount = Integer.MAX_VALUE;
         for (int coin : coins) {

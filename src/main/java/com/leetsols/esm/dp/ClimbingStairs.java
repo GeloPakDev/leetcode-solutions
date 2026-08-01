@@ -51,4 +51,16 @@ public class ClimbingStairs {
 
         return dp[n];
     }
+
+    public int climbStairs(int n, int ans, int curr, int[] memo) {
+        if (curr == n) return 1;
+        if (memo[curr] != Integer.MAX_VALUE) return memo[curr];
+
+        ans = climbStairs(n, ans, curr + 1, memo);
+
+        if (n - curr >= 2) {
+            ans += climbStairs(n, ans, curr + 2, memo);
+        }
+        return memo[curr] = ans;
+    }
 }

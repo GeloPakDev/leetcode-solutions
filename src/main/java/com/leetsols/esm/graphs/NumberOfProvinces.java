@@ -14,7 +14,6 @@ public class NumberOfProvinces {
          * - Build the Adjacent List from Adjacent Matrix
          * - Adjacent List represents the Node with all its Neighbors
          * - Connections (edges) are given us in the input (P.S. this is not a graph)
-         * -
          */
         int n = isConnected.length;
         for (int i = 0; i < n; i++) {
@@ -47,6 +46,7 @@ public class NumberOfProvinces {
         }
         return ans;
     }
+
     /*
      * - Traversal on the node will visit every node in connected component
      * - Take the neighbors for each node
@@ -58,6 +58,51 @@ public class NumberOfProvinces {
                 seen[neighbor] = true;
                 dfs(neighbor);
             }
+        }
+    }
+
+    // Disjoint Set implementation
+    private int[] parent;
+    private int[] rank;
+
+    public int findCircleNumDisSet(int[][] isConnected) {
+        int n = isConnected.length;
+
+        parent = new int[n + 1];
+        rank = new int[n + 1];
+
+        for (int i = 1; i < n; i++) parent[i] = i;
+
+        for (int row = 0; row < isConnected.length; row++) {
+            for (int col = 0; col < isConnected[0].length; col++) {
+                if (isConnected[row][col] == 1 && row != col) {
+                    union(row, col);
+                }
+            }
+        }
+
+        // Go over the parent array to count the number of roots
+        int res = 0;
+        for (int i = 0; i < parent.length; i++) if (parent[i] == i) res++;
+        return res;
+    }
+
+    private int find(int x) {
+        if (parent[x] != x) parent[x] = find(parent[x]);
+        return parent[x];
+    }
+
+    private void union(int x, int y) {
+        int rootX = find(x);
+        int rootY = find(y);
+
+        if (rank[rootX] < rank[rootY]) {
+            parent[rootY] = rootX;
+        } else if (rank[rootX] > rank[rootY]) {
+            parent[rootX] = rootY;
+        } else {
+            parent[rootX] = rootY;
+            rank[rootX]++;
         }
     }
 }

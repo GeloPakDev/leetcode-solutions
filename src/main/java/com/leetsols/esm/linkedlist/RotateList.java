@@ -53,10 +53,6 @@ public class RotateList {
         return dummy;
     }
 
-    /*
-     * - Count the length of the list
-     * -
-     */
     public ListNode rotateRightTwo(ListNode head, int k) {
         ListNode oldTail = head;
         int n = 0;

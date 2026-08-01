@@ -7,16 +7,6 @@ import java.util.List;
 import java.util.Map;
 
 public class LeastNumberOfK {
-    /*
-     * - The Least number of unique integers left after k removals
-     * - arr = [4,3,1,1,3,3,2], k = 3
-     * - 4 -> 1
-     * - 2 -> 1
-     * - 1 -> 2
-     * - 3 -> 3
-     * - Count frequencies
-     * -
-     */
     public int findLeastNumOfUniqueInts(int[] arr, int k) {
         Map<Integer, Integer> count = new HashMap<>();
         for (int num : arr) {

@@ -4,15 +4,21 @@ import java.util.Arrays;
 
 public class UniquePath {
     /*
-     * - Return the number os possible unique paths
-     * - Square above -> row - 1, col
-     * - Square left  -> row, col - 1
-     * - Sum of the number of ways to reach (row - 1, col) and (row, col - 1)
-     * - dp(row, col) = dp(row - 1, col) + dp(row, col - 1)
+     * Approach:
+     * - Robot can move either right or down
+     * - To reach all cells in the first row it can only go to the right
+     * - To reach all cells in the first col it can only go to the down
+     * - To reach the inner cells, it can move either from the left or from
+     *   the cell above.
+     * - Total number of paths to move into the (m, n) cell is
+     *   uniquePath(m - 1, n) + uniquePath(m, n - 1)
      *
-     * - Base cases:
-     *  - (0, 0)
-     *  - dp(0, 0) = 1
+     * Algorithm:
+     * - Initiate the 2d array dp[m][n] = number of paths, at the start the number
+     *   of paths in the first column and row is equal to 1
+     * - Iterate over all "inner" cells:
+     *  - dp[col][row] = dp[col - 1][row] + dp[col][row + 1]
+     * - Return dp[m - 1][n - 1]
      */
 
     int[][] memo;
@@ -23,6 +29,19 @@ public class UniquePath {
             Arrays.fill(memo[i], -1);
         }
         return dp(m - 1, n - 1);
+    }
+
+    public int uniquePathsDP(int m, int n) {
+        int[][] dp = new int[m][n];
+
+        for (int[] arr : dp) Arrays.fill(arr, 1);
+
+        for (int col = 1; col < m; col++) {
+            for (int row = 1; row < n; row++) {
+                dp[col][row] = dp[col - 1][row] + dp[col][row - 1];
+            }
+        }
+        return dp[m - 1][n - 1];
     }
 
     private int dp(int row, int col) {

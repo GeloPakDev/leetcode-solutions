@@ -43,4 +43,51 @@ public class LongestCommonPrefix {
         }
         return true;
     }
+
+    public String longestCommonPrefixTrie(String[] strs) {
+        var trie = new Trie();
+        for (String word : strs) trie.insert(word);
+        return trie.longestCommonPrefix();
+    }
+
+    static class TreeNode {
+        TreeNode[] children = new TreeNode[26];
+        boolean isEndOfWord = false;
+        int childCnt = 0;
+    }
+
+    static class Trie {
+        TreeNode root = new TreeNode();
+
+        public void insert(String node) {
+            TreeNode curr = root;
+            for (int i = 0; i < node.length(); i++) {
+                int idx = node.charAt(i) - 'a';
+                if (curr.children[idx] == null) {
+                    curr.children[idx] = new TreeNode();
+                    curr.childCnt++;
+                }
+                curr = curr.children[idx];
+            }
+            curr.isEndOfWord = true;
+        }
+
+        public String longestCommonPrefix() {
+            TreeNode curr = root;
+            StringBuilder res = new StringBuilder();
+            while (curr.childCnt == 1 && !curr.isEndOfWord) {
+                int nextId = -1;
+                for (int i = 0; i < 26; i++) {
+                    if (curr.children[i] != null) {
+                        nextId = i;
+                        break;
+                    }
+                }
+
+                res.append((char) ('a' + nextId));
+                curr = curr.children[nextId];
+            }
+            return res.toString();
+        }
+    }
 }

@@ -61,7 +61,6 @@ public class SuggestedProducts {
                 ans.add(new ArrayList<>());
             }
         }
-
         return ans;
     }
 }

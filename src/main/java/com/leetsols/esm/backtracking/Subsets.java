@@ -21,13 +21,23 @@ public class Subsets {
         return ans;
     }
 
+    /*
+     * Algorithm:
+     * - If the current combination is done, add to the final output
+     * - Otherwise, iterate from the index [i] to entire sequence length
+     *  - Add nums[i] into the current combination
+     *  - Proceed to add more integers into the combination backtrack(i + 1, curr)
+     *  - Backtrack by removing the nums[i] from curr.
+     *
+     * Time Complexity:
+     * - O(N * 2 ^ (N))
+     *
+     */
     private void backtrack(List<Integer> curr, int i, List<List<Integer>> ans, int[] nums) {
         /*
          * - Run out the numbers to use
          */
-        if (i > nums.length) {
-            return;
-        }
+        if (i > nums.length) return;
 
         ans.add(new ArrayList<>(curr));
         /*
@@ -38,5 +48,28 @@ public class Subsets {
             backtrack(curr, j + 1, ans, nums);
             curr.removeLast();
         }
+    }
+
+    /*
+     * Bitmask
+     * - 1 << n gives us the total count of subsets. Each number from 0 to (1 << n) - 1,
+     *   when written in binary, is a bitmask where each bit position tells us whether to
+     *   include the corresponding element from the input array.
+     * -
+     */
+    public List<List<Integer>> subsetsB(int[] nums) {
+        List<List<Integer>> result = new ArrayList<>();
+        int n = nums.length;
+        int total = 1 << n; // total subsets -> 
+
+        for (int mask = 0; mask < total; mask++) {
+            List<Integer> subset = new ArrayList<>();
+
+            for (int j = 0; j < n; j++) {
+                if ((mask & (1 << j)) != 0) subset.add(nums[j]);
+            }
+            result.add(subset);
+        }
+        return result;
     }
 }

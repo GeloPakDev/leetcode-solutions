@@ -11,10 +11,18 @@ public class UniquePaths {
 
         obstacleGrid[0][0] = 1;
 
+        /*
+         * In the first column, if the cell above have an obstacle, all subsequent cell
+         * to the down will have an obstacle as the path will not be available.
+         */
         for (int i = 1; i < row; i++) {
             obstacleGrid[i][0] = (obstacleGrid[i][0] == 0 && obstacleGrid[i - 1][0] == 1 ? 1 : 0);
         }
 
+        /*
+         * In the first row, if the cell to the left have an obstacle, all subsequent cells
+         * to the right will have an obstacle as the path will not be available.
+         */
         for (int i = 1; i < column; i++) {
             obstacleGrid[0][i] = (obstacleGrid[0][i] == 0 && obstacleGrid[0][i - 1] == 1 ? 1 : 0);
         }

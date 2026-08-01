@@ -94,6 +94,45 @@ public class BST {
         return list;
     }
 
+    public List<Integer> iterativePreOrder(TreeNode node) {
+        Stack<TreeNode> stack = new Stack<>();
+        List<Integer> res = new ArrayList<>();
+
+        TreeNode curr = node;
+        while (!stack.isEmpty() || curr != null) {
+            if (curr != null) {
+                stack.push(curr);
+                res.addFirst(curr.val);
+                curr = curr.right;
+            } else {
+                curr = stack.pop();
+                curr = curr.left;
+            }
+        }
+        return res;
+    }
+
+    public List<Integer> iterativePostOrder(TreeNode node) {
+        Stack<TreeNode> stack = new Stack<TreeNode>();
+        List<Integer> res = new ArrayList<>();
+
+        TreeNode temp = node;
+        while (!stack.isEmpty() || temp != null) {
+            if (temp != null) {
+                stack.push(temp);
+                if (temp.right != null) stack.push(temp.right);
+                temp = temp.left;
+            } else {
+                // when the root element is taken, and it has right child subtree
+                //
+                temp = stack.pop();
+                res.add(temp.val);
+                temp = temp.right;
+            }
+        }
+        return res;
+    }
+
     public boolean isValidBST(TreeNode root) {
         return dfs(root, Long.MIN_VALUE, Long.MAX_VALUE);
     }
@@ -150,7 +189,7 @@ public class BST {
             val = root.val;
             closest = Math.abs(val - target) < Math.abs(closest - target)
                     || (Math.abs(val - target) == Math.abs(closest - target) && val < closest)
-                     ? val : closest;
+                    ? val : closest;
             root = target < root.val ? root.left : root.right;
         }
         return closest;

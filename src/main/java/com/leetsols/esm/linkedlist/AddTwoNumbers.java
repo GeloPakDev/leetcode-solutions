@@ -1,6 +1,5 @@
 package com.leetsols.esm.linkedlist;
 
-
 public class AddTwoNumbers {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         int firstValue = countValue(l1, 0);

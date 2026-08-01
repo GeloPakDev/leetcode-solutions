@@ -65,4 +65,38 @@ public class ValidPalindrome {
         }
         return true;
     }
+
+    /*
+     * Reverse the original number and then compare the reversed number
+     * with the original number.
+     */
+    public boolean checkIsNumberPalindrome(int num) {
+        int reverse = 0;
+
+        int temp = Math.abs(num);
+        while (temp != 0) {
+            reverse = (reverse * 10) + (temp % 10);
+            temp = temp / 10;
+        }
+        return (reverse == Math.abs(num));
+    }
+
+    /*
+     * When the input number is big 10^18, reversing an integer can cause overflow,
+     * to avoid it, convert the number into the string and compare characters from the
+     * both ends of the string and move towards the center
+     */
+    public boolean checkIsPalindrome(int n) {
+        String s = Integer.toString(n);
+
+        int start = 0;
+        int end = s.length() - 1;
+
+        while (start < end) {
+            if (s.charAt(start) != s.charAt(end)) return false;
+            start++;
+            end--;
+        }
+        return true;
+    }
 }

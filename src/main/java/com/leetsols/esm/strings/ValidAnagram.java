@@ -13,6 +13,10 @@ import java.util.List;
  * Number: 49 Group Anagrams
  */
 public class ValidAnagram {
+    /*
+     * Main property of the anagrams is that they have the same letters
+     * of the same frequency, so it comes up to the frequency map calculation.
+     */
     public static boolean isAnagram(String s, String t) {
         if (s.isEmpty() || t.isEmpty()) {
             return false;

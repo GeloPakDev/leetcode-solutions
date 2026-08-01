@@ -1,9 +1,16 @@
 package com.leetsols.esm.graphs;
 
+import java.util.ArrayDeque;
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Deque;
+import java.util.HashMap;
+import java.util.HashSet;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.Map;
 import java.util.Queue;
+import java.util.Set;
 
 /*
  * Problem type: Depth-First Search, Breadth-First Search, Graph, Topological Sort
@@ -87,5 +94,61 @@ public class CourseSchedule {
             }
         }
         return visitedNodes == numCourses;
+    }
+
+    /*
+     * Topological sort:
+     * - Given an array of prerequisites[i] = [a, b], where
+     *   b -> you must take this course first
+     *   a -> you must take this course after
+     *   in other words to visit the node [a] you have to take the course [b]
+     * - [0, 1] -> to visit the node 0, visit the node 1 first
+     * - Topological Sorting implemented using the DFS + Stack, works in a way that the nodes
+     *   which are visited first, gonna appear in the resulting set first, so if there is the
+     *   [uv] edge, node [u] should appear first before the node [v], another requirement is
+     *   DAG, as if the cycle appears in our graph, we simply will not be able to take that
+     *   course.
+     */
+    public boolean canFinishTopoSort(int numCourses, int[][] prerequisites) {
+        var graph = makeGraph(prerequisites);
+        var visiting = new HashSet<Integer>();
+        var visited = new HashSet<Integer>();
+        var stack = new ArrayDeque<Integer>();
+
+        for (Integer node : graph.keySet()) {
+            if (!visited.contains(node)) {
+                if (!dfs(node, visiting, visited, stack, graph)) return false;
+            }
+        }
+        return true;
+    }
+
+    public boolean dfs(int node, Set<Integer> visiting, Set<Integer> visited, Deque<Integer> stack, Map<Integer, List<Integer>> graph) {
+        visiting.add(node);
+
+        for (int neighbor : graph.getOrDefault(node, Collections.emptyList())) {
+            // Avoid back edge loop
+            if (visiting.contains(neighbor)) return false;
+
+            if (!visited.contains(neighbor)) {
+                if (!dfs(neighbor, visiting, visited, stack, graph)) return false;
+            }
+        }
+
+        visiting.remove(node);
+        visited.add(node);
+        stack.push(node);
+        return true;
+    }
+
+    public Map<Integer, List<Integer>> makeGraph(int[][] prerequisites) {
+        var res = new HashMap<Integer, List<Integer>>();
+        for (int[] prerequisite : prerequisites) {
+            int from = prerequisite[0];
+            int to = prerequisite[1];
+            if (!res.containsKey(from)) res.put(from, new ArrayList<>());
+            res.get(from).add(to);
+        }
+        return res;
     }
 }

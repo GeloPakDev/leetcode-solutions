@@ -42,7 +42,7 @@ public class ReorderRoutes {
     }
 
     public String convertToHash(int row, int col) {
-        return String.valueOf(row) + "," + String.valueOf(col);
+        return row + "," + col;
     }
 
 }
