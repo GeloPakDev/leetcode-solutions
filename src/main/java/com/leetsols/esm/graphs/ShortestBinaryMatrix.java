@@ -11,9 +11,7 @@ public class ShortestBinaryMatrix {
         /*
          * - Top-left square is 1 -> which is not clear
          */
-        if (grid[0][0] == 1) {
-            return -1;
-        }
+        if (grid[0][0] == 1) return -1;
 
         n = grid.length;
         boolean[][] seen = new boolean[n][n];
@@ -30,13 +28,11 @@ public class ShortestBinaryMatrix {
             /*
              * - The end has been reached
              */
-            if (row == n - 1 && col == n - 1) {
-                return steps;
-            }
+            if (row == n - 1 && col == n - 1) return steps;
 
             for (int[] direction : directions) {
-                int nextRow = direction[0];
-                int nextCol = direction[1];
+                int nextRow = row + direction[0];
+                int nextCol = col + direction[1];
 
                 if (valid(row, col, grid) && !seen[row][col]) {
                     seen[row][col] = true;

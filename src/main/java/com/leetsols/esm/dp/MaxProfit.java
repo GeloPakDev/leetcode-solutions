@@ -119,7 +119,6 @@ public class MaxProfit {
      *  - Check if the node we are on lower than the highest peak we have seen so far
      *  - If it is, set the local min and max to be valley
      *  - If it is not(the node we are on higher than the highest peak, update the highest peak to the larger value)
-     *  -
      *
      * When to add found differences to our overall total
      *  - It is done everytime we move to new valley
